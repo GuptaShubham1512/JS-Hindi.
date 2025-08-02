@@ -35,3 +35,19 @@ const myFunction = function(){  // function(){}
 console.log(typeof anotherId);  //typeofnull ka object hoga
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+ //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ //Stack (primitive)  , heap(refference or Non-Primitive)
+ let myYoutubename="hiteShChoudharydotcom"
+
+ let anothername = myYoutubename
+ anothername ="chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// ye sab primitive hai pahle myYoutubename print hoga
+// phit chaiaurcode print hoga
+//referenece aur non-primitive mein original value change ho jayega...
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
