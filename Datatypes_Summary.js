@@ -12,9 +12,9 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+console.log(id === anotherId);  //false
 
-// const bigNumber = 3456543576654356754n
+// const bigNumber = 3456543576654356754n  ***n repersent big int
 
 
 
@@ -28,10 +28,10 @@ let myObj = {
     age: 22,
 }
 
-const myFunction = function(){
+const myFunction = function(){  // function(){}
     console.log("Hello world");
-}
+} //fuction ka type of function hi hoga
 
-console.log(typeof anotherId);
+console.log(typeof anotherId);  //typeofnull ka object hoga
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
