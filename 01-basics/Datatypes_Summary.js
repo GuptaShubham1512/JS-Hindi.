@@ -46,8 +46,19 @@ console.log(typeof anotherId);  //typeofnull ka object hoga
 console.log(myYoutubename);
 console.log(anothername);
 
+let userOne = {
+    email:"usergoogle@gmail.com",
+    upi:"user@axl"
+}
+
+let userTwo = userOne
+userTwo.email="shubhamkrgupta15@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // ye sab primitive hai pahle myYoutubename print hoga
 // phit chaiaurcode print hoga
 //referenece aur non-primitive mein original value change ho jayega...
-//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

@@ -1,14 +1,14 @@
 const name = "hitesh"
 const repoCount = 50
 
-// console.log(name + repoCount + " Value");
+// console.log(name + repoCount + " Value");  hitesh50 Value
 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
-const gameName = new String('hitesh-hc-com')
+const gameName = new String('hitesh-hc-com') // another method of string declare +++++++we gwt length property and many mthod
 
-// console.log(gameName[0]);
-// console.log(gameName.__proto__);
+// console.log(gameName[0]);   h
+// console.log(gameName.__proto__);  {} we get object 
 
 
 // console.log(gameName.length);
@@ -24,13 +24,14 @@ console.log(anotherString);
 
 const newStringOne = "   hitesh    "
 console.log(newStringOne);
-console.log(newStringOne.trim());
+console.log(newStringOne.trim());  // trim remove the empty space actually use like user have to write email,paasword
 
 const url = "https://hitesh.com/hitesh%20choudhary"
 
 console.log(url.replace('%20', '-'))
 
-console.log(url.includes('sundar'))
+console.log(url.includes('sundar'))  //identify ki ye keyword hai ki nhi
 
 
 console.log(gameName.split('-'));
+//split-
