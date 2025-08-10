@@ -28,7 +28,7 @@ JsUser.email = "hitesh@chatgpt.com"
 // Object.freeze(JsUser)  //freeze ho  gya **N0 CHANGE**
 JsUser.email = "hitesh@microsoft.com"
 // console.log(JsUser);
-//Adding greetings freeze hatan padega
+//Adding greetings freeze hatan padega 
 JsUser.greeting = function(){
     console.log("Hello JS user");
 }
