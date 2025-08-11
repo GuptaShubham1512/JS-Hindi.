@@ -77,6 +77,10 @@ console.log(instructor);
 //     "price": "free"
 // }
 
+//upper wlla object nhi JSON hai
+
+//..API==aapna kaam dusre mein daalna
+
 [
     {},
     {},
